@@ -1,62 +1,67 @@
-# $LERF Rewards Hub by Boomchainlab
+<p align="center">
+  <img src="https://i.imgur.com/vLNmlOd.png" alt="$LERF Logo" width="160" />
+</p>
 
-A cutting-edge Web3 reward platform that transforms blockchain interactions into an engaging, gamified ecosystem powered by $LERF tokens.
+<h1 align="center">$LERF Rewards Hub</h1>
 
-## Features
+<p align="center">
+  A gamified Web3 reward ecosystem built by <strong>Boomchainlab</strong><br/>
+  🔗 Live: <a href="https://slerfearn.boomchainlab.com">slerfearn.boomchainlab.com</a>
+</p>
 
-- 🎮 **Gamified Rewards System**: Complete daily missions and weekly quests to earn $LERF tokens
-- 💰 **Multi-Chain Staking**: Stake your $LERF tokens across multiple chains for passive income
-- 🎯 **Micro-Tasks with Rewards**: Automated micro-tasks with a 5-minute cooldown faucet
-- 🤖 **On-Chain Activity Farming**: Bots and tools for maximizing on-chain activity rewards
-- 🔄 **Auto-Staking Contracts**: Smart contracts that automatically reinvest earnings
-- 🌈 **Cross-Chain Liquidity**: Add and manage liquidity across Ethereum, Solana, and more
-- 🦊 **Multi-Wallet Support**: Connect any wallet from MetaMask to Phantom with connection rewards
-- 🤝 **GitHub Integration**: Connect your GitHub account to earn additional $LERF tokens
-- 📊 **Professional Trading Interface**: Advanced charting, swap, and trading tools
+---
 
-## Tech Stack
+## 🚀 Overview
 
-- **Frontend**: React.js, Vite, TailwindCSS, shadcn/ui
-- **Backend**: Node.js, Express
-- **Database**: PostgreSQL with Drizzle ORM
-- **Web3**: ethers.js, WalletConnect
-- **Authentication**: Replit Auth
+The **$LERF Rewards Hub** is a next-generation Web3 platform that transforms on-chain engagement into tokenized rewards. Powered by the $LERF token and designed with Next.js, the platform gamifies blockchain interactions through missions, staking, trading, and micro-tasks.
 
-## Key Components
+---
 
-### Dashboard
+## 🎯 Features
 
-Professional multi-million dollar dashboard interface showing platform statistics, user rewards, and ecosystem metrics.
+- 🎮 **Gamified Rewards System** — Complete daily/weekly quests to earn $LERF
+- 💰 **Multi-Chain Staking** — Stake across Ethereum, BSC, Arbitrum, Solana
+- 🧩 **Cooldown Micro-Tasks** — Auto-refreshed tasks every 5 minutes
+- 🤖 **Activity Farming** — Integrated tools and bots for on-chain actions
+- 🔄 **Auto-Staking** — Earnings reinvested via smart contracts
+- 🌉 **Cross-Chain Liquidity** — Manage LPs across major networks
+- 🦊 **Multi-Wallet Connect** — MetaMask, Phantom, WalletConnect & more
+- 🧑‍💻 **GitHub Rewards** — Link contributions to earn tokens
+- 📈 **Trading Interface** — Charts, swap, and orderbook for $LERF
 
-### Multi-Wallet Connect
+---
 
-Seamless integration with multiple wallet providers across different blockchains, with token rewards for connecting.
+## 🧪 Tech Stack
 
-### Token Trading Chart
+| Layer        | Stack                                  |
+|--------------|-----------------------------------------|
+| Frontend     | **Next.js 15**, TailwindCSS, shadcn/ui |
+| Web3         | wagmi, viem, WalletConnect, ethers.js  |
+| Backend      | Node.js, Next.js API Routes             |
+| Database     | PostgreSQL, Drizzle ORM                 |
+| Auth         | Replit OAuth, Wallet Auth              |
+| CI/CD        | Vercel, Railway, Docker                |
 
-Professional trading interface with price charts, order books, and swap functionality for $LERF tokens.
+---
 
-### Cross-Chain Liquidity
-
-Add and manage liquidity for $LERF tokens across multiple blockchains including Ethereum, Solana, BSC, and Arbitrum.
-
-### GitHub Connect
-
-Connect your GitHub account to earn $LERF token rewards for open source contributions.
-
-## Getting Started
+## 🧑‍💻 Getting Started
 
 ### Prerequisites
 
 - Node.js 18+
-- PostgreSQL database
+- PostgreSQL
+- WalletConnect & Infura project IDs
 
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/Boomchainlab/lerf-rewards-hub.git
-cd lerf-rewards-hub
+git clone https://github.com/BoomchainLabs/slerfearn.git
+cd slerfearn
+npm install
+cp .env.example .env
+# Edit .env with your secrets
+npm run db:push
+npm run dev
 
 # Install dependencies
 npm install
