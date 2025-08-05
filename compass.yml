@@ -1,0 +1,17 @@
+name: slerfearn-next.js
+id: ari:cloud:compass:2eefe999-d61b-469c-92ef-31fc5e9b3f13:component/ace244a1-3ae8-43fb-8c96-347d12170341/74550d8e-0829-4bd1-8e57-4269245ab393
+description: slerfearn full stack build with next.js
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/Boomtoknlab/slerfearn-next.js
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+  - synced-with-jsm
+customFields: null
