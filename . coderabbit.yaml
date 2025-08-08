@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://coderabbit.ai/schema.json
+
+language: "en-US"
+early_access: true
+
+reviews:
+  profile: "assertive"             # Strict, direct, no sugarcoating
+  request_changes_workflow: true   # Block until resolved
+  high_level_summary: true
+  review_status: true
+  collapse_walkthrough: false
+  poem: false                       # Remove fluff for compliance mode
+  auto_review:
+    enabled: true
+    drafts: false                   # Enforce full PR reviews only
+  require_approval: true
+  require_all_checks_pass: true     # Block merge if CI/CD fails
+  detect_security_issues: true
+  detect_performance_issues: true
+  detect_best_practice_violations: true
+  enforce_style_guides: true        # Match project coding standards
+  block_on_critical_issues: true    # Stop PR until fixed
+  ignore_minor_formatting: false    # Even small format issues must be fixed
+
+chat:
+  auto_reply: true
+  tone: "compliance"
+  include_code_suggestions: true
+  summarize_threads: true
+
+notifications:
+  enable_pr_status_updates: true
+  enable_review_summaries: true
+  alert_on_blockers: true
+  escalate_on_unresolved: true      # Escalate if PR is stuck
