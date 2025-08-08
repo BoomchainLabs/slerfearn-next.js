@@ -13,7 +13,7 @@
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.21",
-    "eslint": "8.57.1",
+    "eslint": "9.33.0",
     "eslint-config-next": "15.4.6",
     "next": "15.4.6",
     "postcss": "8.5.6",
